@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTT.EF.Domain", "VSTT.EFCore\VSTT.EF.Domain\VSTT.EF.Domain.csproj", "{F11F6E77-9D2D-498F-95CB-29BABE8DD060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTT.EF.DataAccess", "VSTT.EF.DataAccess\VSTT.EF.DataAccess.csproj", "{B456E97D-1343-47EA-B016-CBAD3B7AEF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTT.EF.Test", "VSTT.EF.Test\VSTT.EF.Test.csproj", "{648DC7CE-84BD-4188-A118-9237A6CF3242}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{654585C0-1876-4138-98CD-C3CFCAE625FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F11F6E77-9D2D-498F-95CB-29BABE8DD060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11F6E77-9D2D-498F-95CB-29BABE8DD060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11F6E77-9D2D-498F-95CB-29BABE8DD060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11F6E77-9D2D-498F-95CB-29BABE8DD060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B456E97D-1343-47EA-B016-CBAD3B7AEF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B456E97D-1343-47EA-B016-CBAD3B7AEF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B456E97D-1343-47EA-B016-CBAD3B7AEF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B456E97D-1343-47EA-B016-CBAD3B7AEF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648DC7CE-84BD-4188-A118-9237A6CF3242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648DC7CE-84BD-4188-A118-9237A6CF3242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648DC7CE-84BD-4188-A118-9237A6CF3242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648DC7CE-84BD-4188-A118-9237A6CF3242}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tdj.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VSTT.EF.DataAccess\\VSTT.EF.DataAccess.csproj
+		SccProjectName1 = VSTT.EF.DataAccess
+		SccLocalPath1 = VSTT.EF.DataAccess
+		SccProjectUniqueName2 = VSTT.EF.Test\\VSTT.EF.Test.csproj
+		SccProjectName2 = VSTT.EF.Test
+		SccLocalPath2 = VSTT.EF.Test
+		SccProjectUniqueName3 = VSTT.EFCore\\VSTT.EF.Domain\\VSTT.EF.Domain.csproj
+		SccProjectName3 = VSTT.EFCore/VSTT.EF.Domain
+		SccLocalPath3 = VSTT.EFCore\\VSTT.EF.Domain
+	EndGlobalSection
+EndGlobal
